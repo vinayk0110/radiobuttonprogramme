@@ -1,2 +1,3 @@
 system.out.println("radiobutton");
 string = radio ;
+string = button;
