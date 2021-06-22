@@ -65,8 +65,10 @@ public class seleniumradiobutton extends Screenshot
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(2000, TimeUnit.SECONDS);
+		//sending keys
 		driver.findElement(By.xpath("//input[@name='emaill']")).sendKeys("viny");
 		driver.findElement(By.xpath("(//a[contains(text(),\"Input Forms\")])[2]")).click();
+		
 	}
 
 }
